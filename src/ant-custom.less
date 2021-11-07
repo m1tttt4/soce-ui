@@ -1,0 +1,76 @@
+@import '~antd/es/style/themes/dark.less';
+@import "~antd/dist/antd.dark.less";
+
+@font-face {
+    font-family: "FF Oxide Solid";
+    src: url("//db.onlinewebfonts.com/t/bc30adee89b44a44a5cfdff676aef0fe.eot");
+    src: url("//db.onlinewebfonts.com/t/bc30adee89b44a44a5cfdff676aef0fe.eot?#iefix") format("embedded-opentype"),
+         url("//db.onlinewebfonts.com/t/bc30adee89b44a44a5cfdff676aef0fe.woff2") format("woff2"),
+         url("//db.onlinewebfonts.com/t/bc30adee89b44a44a5cfdff676aef0fe.woff") format("woff"),
+         url("//db.onlinewebfonts.com/t/bc30adee89b44a44a5cfdff676aef0fe.ttf") format("truetype"),
+         url("//db.onlinewebfonts.com/t/bc30adee89b44a44a5cfdff676aef0fe.svg#FF Oxide Solid") format("svg");
+  }
+
+@primary-color: #ff00a8;
+@popover-background: #1a2029;
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr 
+        > td, .ant-table tfoot > tr > th, .ant-table tfoot
+        > tr > td {
+  padding: 4px 8px;
+}
+
+.ant-layout .tableWrapper {
+  margin: 0px;
+  width: 100%;
+}
+
+.ant-layout-content::-webkit-scrollbar {
+  display: none;
+}
+
+.transaction-modal-wrapper-button {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+[class*="transaction-modal-button"] {
+  width: 100%;
+  margin: 10px;
+}
+
+.transaction-modal-button-buy {
+  background: #008a58;
+}
+
+.transaction-modal-button-sell {
+  background: #870000;
+}
+
+.transaction-modal-title {
+  font-size: 12px;
+}
+
+.transaction-modal-input-number {
+  width: 25%;
+  margin-left: auto;
+}
+
+.ant-input-number {
+  width: 100%;
+}
+
+.transaction-modal-input-date {
+  width: 25%;
+  margin-left: auto;
+}
+
+.ant-picker {
+  width: 100%;
+}
+
+.table-button-dropdown {
+  width: 100%;
+  justify-content: right;
+}
